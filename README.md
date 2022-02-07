@@ -17,8 +17,8 @@ ENTRYPOINT ["java","-jar","/app.jar"]
 3.docker.filer을 build시켜 docker image 생성
 터미널에 명령어 입력
 Maven : docker build -t springio/gs-spring-boot-docker .
-Gradle : docker build --build-arg DEPENDENCY=build/dependency -t springio/gs-spring-boot-docker .
-!! springio/gs-spring-boot-docker =>> docker hub의 개인저장소 이름<br>
+Gradle : docker build --build-arg DEPENDENCY=build/dependency -t springio/gs-spring-boot-docker . <br>
+cf) springio/gs-spring-boot-docker =>> docker hub의 개인저장소 이름<br>
 4.docker hub에 push<br>
 docker push seung5457/spring-boot-cpu-bound<br>
 
